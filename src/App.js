@@ -4,16 +4,26 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Main from './pages/Main';
 import CV from './pages/CV';
 import Contact from './pages/Contact';
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Main} />
-        <Route path="/cv"  component={CV} />
-        <Route path="/contact"  component={Contact} />
-      </Switch>
-    </BrowserRouter>
+    <div>
+      <Navbar/>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact >
+            <Main/>
+          </Route>
+          <Route path="/resume">
+            <CV/>
+          </Route>
+          <Route path="/contact">
+            <Contact/>
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </div>  
   );
 }
 

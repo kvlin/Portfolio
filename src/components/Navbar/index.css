@@ -1,0 +1,13 @@
+.colour-nav{
+    background-color: rgba(0, 0, 0, 0.918);
+    
+}
+.colour-nav a:hover{
+    background-color:rgb(61, 60, 60);
+    transition: 0.1s;
+};
+
+.navbar-brand {
+     padding: 18px 20px;
+    display: inline-block;
+}
