@@ -4,14 +4,15 @@ import './index.css'
 
 export default function NavigationBar() {
     const navBrandStyle = {
-        fontSize:"220%",
+        fontSize:"180%",
+        fontWeight:"350",
         color:"white",
         backgroundColor: "#181414",
         padding:"0px 0px"
 
     };
     const navLinkStyle = {
-        fontSize:"140%",
+        fontSize:"130%",
         color:"white",
         padding:"10px 10px",
         margin:"0 0.7em"
