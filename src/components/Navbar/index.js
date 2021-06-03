@@ -1,25 +1,26 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
+import {Nav, Container, Navbar} from 'react-bootstrap/'
 import './index.css'
 
 export default function NavigationBar() {
     const navBrandStyle = {
         fontSize:"220%",
         color:"white",
+        backgroundColor: "#181414",
+        padding:"0px 0px"
 
     };
     const navLinkStyle = {
-        fontSize:"150%",
+        fontSize:"140%",
         color:"white",
+        padding:"10px 10px",
         margin:"0 0.7em"
     }
     return (
 
         <>
-            <Navbar collapseOnSelect expand="lg" className="colour-nav" bg=""variant="dark">
-                <Container>
+            <Navbar style={{padding:"0px 0px"}} collapseOnSelect expand="lg" className="colour-nav" bg=""variant="dark">
+                <Container style={{minWidth:"50%", padding:"0px 0px"}}>
                 <Navbar.Brand href="/"  style={navBrandStyle} >Kevin Lin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
