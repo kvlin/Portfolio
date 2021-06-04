@@ -5,7 +5,7 @@ import './index.css'
 export default function SkillsBrief() {
     return (
         <div className="wrapper">
-            <Container style={{minWidth:"50%"}}>
+            <Container style={{minWidth:"55%"}}>
                 <Row className="portfolio-text" >
                     Portfolio
                 </Row>

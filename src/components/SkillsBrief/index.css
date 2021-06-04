@@ -12,11 +12,11 @@
 
 .about-text {
     font-size:30px;
-    font-weight:350
+    font-weight:300
 }
 .skills-text {
     font-size:25px;
-    font-weight:340
+    font-weight:300
 }
 
 @media only screen and (max-width: 1199px) {
