@@ -1,0 +1,67 @@
+.btn-linkedin {
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 1em;
+    width:10em;
+    height:3em;
+    background-color: #0E76A8;
+    border-color: #0E76A8;
+    float:left;
+  }
+  .linkedin{
+    background-color: #0E76A8;
+    border-color: #0E76A8;
+  }
+  .svg-linkedin{
+    background-color: #0E76A8;
+    border-color: #0E76A8;
+    font-size: 2em;
+    position: relative;
+    left:-20px
+
+  }
+  .btn-github{
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 1em;
+    width:10em;
+    height:3em;
+    background: #24292e;
+    border-color: #24292e;
+    float:left;
+    margin-bottom:0.5em;
+  }
+  .svg-github{ 
+    background-color: #24292e;
+    border-color: #24292e;
+    font-size: 2em;
+    position: relative;
+    left:-27px
+
+  }
+  .btn-linkedin:active, .btn-linkedin:hover > .svg-linkedin {
+    background: #2991c5;
+    color: #fff;
+  }
+  .btn-linkedin:hover  {
+    background: #2991c5;
+    color: #fff;
+  }
+
+
+
+  .btn-github:active, .btn-github:hover > .svg-github {
+    background: #5e5e5e;
+    color: #fff;
+    
+  }
+  .btn-github:hover {
+    background: #5e5e5e;
+    color: #fff;
+    
+  }
+  

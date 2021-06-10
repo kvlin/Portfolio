@@ -11,3 +11,42 @@
     display: inline-block;
 }
 
+.github-centre{
+    transform: rotate(45deg); 
+    position: absolute;
+    top:-2; left: 50%;
+    z-index: 1;
+    display:none
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .wrapper {
+        padding:20px;
+    }
+    .portfolio-text {
+        font-size:40px
+    }
+    .about-text {
+        font-size:20px
+    }
+    .skills-text {
+        font-size:20px
+    }
+
+  }
+
+@media only screen and (max-width: 1249px) {
+
+    .github-corner{
+        display:none
+    }
+    .github-centre{
+        display:inline
+    }
+
+}
+
+@media only screen and (max-width: 1249px) {
+
+    }

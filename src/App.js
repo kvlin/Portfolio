@@ -15,7 +15,7 @@ function App() {
           <Route path="/" exact >
             <Main/>
           </Route>
-          <Route path="/resume">
+          <Route path="/cv">
             <CV/>
           </Route>
           <Route path="/contact">

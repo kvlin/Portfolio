@@ -19,23 +19,3 @@
     font-weight:300
 }
 
-@media only screen and (max-width: 1199px) {
-    .wrapper {
-        padding:20px;
-    }
-    .portfolio-text {
-        font-size:40px
-    }
-    .about-text {
-        font-size:20px
-    }
-    .skills-text {
-        font-size:20px
-    }
-  }
-
-@media only screen and (max-width: 767px) {
-.wrapper {
-    padding:10px;
-}
-}
