@@ -11,7 +11,7 @@ export default function SkillsBrief() {
                 </Row>
                 <br/>
                 <Row className="about-text">
-                    <span>I'm a full stack developer living in Sydney. <strong>I love programming!</strong></span>
+                    <span>I'm a full stack developer living in Sydney. </span>
                 </Row>
                 <br/>
                 <Row className="skills-text">

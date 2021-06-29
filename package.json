@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fancyapps/ui": "^4.0.0-alpha.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -12,14 +13,20 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "hamburger-react": "^2.4.1",
+    "keen-slider": "^5.5.1",
     "mdbreact": "^5.0.2",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
     "react-github-corner": "^2.5.0",
+    "react-images-viewer": "^1.6.7",
+    "react-medium-image-zoom": "^4.3.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
     "rsuite": "^4.10.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

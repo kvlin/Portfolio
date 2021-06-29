@@ -10,7 +10,8 @@ export default function NavigationBar() {
         fontWeight:"350",
         color:"white",
         backgroundColor: "#181414",
-        padding:"0px 0px"
+        padding:"0px 0px", 
+        marginTop:"4px"
 
     };
     const navLinkStyle = {
@@ -23,9 +24,9 @@ export default function NavigationBar() {
     return (
 
         <>
-        <GithubCorner href="https://github.com/kvlin" className="github-centre" direction="left" ariaLabel="View My Github" size="64"/>
+        <GithubCorner href="https://github.com/kvlin" className="github-centre" title="View my GitHub profile" direction="left" ariaLabel="View My Github" size="64"/>
             <Navbar style={{padding:"0px"}} collapseOnSelect expand="lg" className="colour-nav" bg=""variant="dark">
-            <GithubCorner href="https://github.com/kvlin" className="github-corner" bannerColor="white" octoColor="black" size="52" direction="right"/>
+            <GithubCorner href="https://github.com/kvlin" className="github-corner"  title="View my GitHub profile" bannerColor="white" octoColor="black" size="52" direction="right"/>
                 <Container style={{minWidth:"53%", padding:"0px"}}>
                 <Navbar.Brand href="/"  style={navBrandStyle} >Kevin Lin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{border:"none"}}>
