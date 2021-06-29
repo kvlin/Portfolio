@@ -2,11 +2,9 @@ import React from 'react';
 import SkillsBrief from '../../components/SkillsBrief'
 import ProjectsBrief from '../../components/ProjectsBrief'
 import {Row, Col, Container} from 'react-bootstrap/'
-import poGenAddProductImg from '../../images/po-generator/All-pages-screenshot.PNG'
-import poGenCalculatorImg from '../../images/po-generator/Calculation-page-screenshot.PNG'
-import poSampleImg from '../../images/po-generator/Sample-PDF-screenshot.PNG'
-import budgetTracker1 from '../../images/budget-tracker/iphone11-screenshot-5.png'
-import gymTrackImg from '../../images/gymtrack/All.PNG'
+import poGenAllImg from '../../images/po-generator/All-pages-screenshot.PNG'
+import budgetTrackerAllImg from '../../images/budget-tracker/iphone11-screenshot-5.png'
+import gymtrackAllImg from '../../images/gymtrack/All.PNG'
 
 export default function Main() {
   const poGenerator = {
@@ -17,9 +15,7 @@ export default function Main() {
     technologies: "the MERN stack (MongoDB, Express, React, Node.js), Ant Design, jsPDF, Passport.js (authentication)",
     last_technology: 'Bcrypt',
     images:[ 
-      {image:poGenAddProductImg, caption: "Purchase Order Generator", style:{ maxWidth:"1660px", width: "auto",height: "auto"}},
-      {image:poGenCalculatorImg, style:{ maxWidth:"660px", width: "auto",height: "auto"}},
-      {image:poSampleImg, style:{ maxHeight:"660px", width: "auto",height: "auto"}},
+      {image:poGenAllImg, caption: "Purchase Order Generator", style:{ maxWidth:"1660px", width: "auto",height: "auto"}},
     ],
 
   }
@@ -30,7 +26,7 @@ export default function Main() {
     anchor: 'More info',
     technologies: 'Node.js, Express, MySQL, JQuery, Handlebars, Passport.js',
     last_technology: 'Bcrypt',
-    images:[{image:gymTrackImg, caption: "Gymtrack - An app for Gym classes creation and reservation", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}]
+    images:[{image:gymtrackAllImg, caption: "Gymtrack - An app for Gym classes creation and reservation", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}]
     
   }
   const budgetTracker = {
@@ -41,7 +37,7 @@ export default function Main() {
     technologies: "IndexedDB, Service Worker, Cache API, Bootstrap",
     last_technology: 'MongoDB Atlas',
     images:[ 
-      {image:budgetTracker1, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
+      {image:budgetTrackerAllImg, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
     ],
 
   }
@@ -53,7 +49,7 @@ export default function Main() {
     technologies: "Node.js, Express, MongoDB, Mongoose, Chart.js",
     last_technology: 'deployed on Heroku',
     images:[ 
-      {image:budgetTracker1, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
+      {image:budgetTrackerAllImg, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
     ]
   }
 
@@ -76,13 +72,6 @@ export default function Main() {
           <Col style={{marginTop:"2em"}}>
             <ProjectsBrief>{fitnessTracker}</ProjectsBrief>
           </Col >
-
-          {/* <Col style={{marginTop:"2em"}}>
-            <ProjectsBrief/>
-          </Col>
-          <Col style={{marginTop:"2em"}}>
-            <ProjectsBrief/>
-          </Col> */}
         </Row>
       </Container>
     </>
