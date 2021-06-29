@@ -71,7 +71,7 @@ export default function ProjectsBrief({children}) {
             <Card.Body>
                 <Card.Title>{children.title}</Card.Title>
                 <Card.Text>
-                {children.summary}
+                {children.summary} Developed using <strong>{children.technologies}</strong> and <strong>{children.last_technology}</strong>.
                 </Card.Text>
                 <Card.Text>
                 <a href={children.link}>{children.anchor}</a>

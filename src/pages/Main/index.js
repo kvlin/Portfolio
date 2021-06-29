@@ -10,9 +10,11 @@ import budgetTracker1 from '../../images/budget-tracker/iphone11-screenshot-5.pn
 export default function Main() {
   const poGenerator = {
     title: 'Purchase Order Generator - SaaS',
-    summary: 'SaaS application built to automate part of my employment routine task. The MERN (MongoDB, ExpressJS, React, NodeJS) stack was utilized in this project. For a given pharmaceutical product and quantity, the user will be able to obtain purchase orders for every single raw material within matters of seconds, minimizing the need for manual input, resulting in greater productivity.',
+    summary: 'SaaS application built to automate part of my employment routine task. For a given pharmaceutical product and quantity, the user will be able to obtain purchase orders for every single raw material needed within matters of seconds, minimizing the need for manual input, resulting in greater productivity.',
     link: 'https://github.com/kvlin/PurchaseOrder-Generator',
     anchor: 'More info',
+    technologies: "the MERN stack (MongoDB, ExpressJS, React, NodeJS), Ant Design",
+    last_technology: 'Passport.js (authentication)',
     images:[ 
       {image:poGenAddProductImg, caption: "Purchase Order Generator", style:{ maxWidth:"1660px", width: "auto",height: "auto"}},
       {image:poGenCalculatorImg, style:{ maxWidth:"660px", width: "auto",height: "auto"}},
@@ -22,22 +24,26 @@ export default function Main() {
   }
   const gymTrack = {
     title: 'Gymtrack - Fitness class scheduler',
-    summary: 'MySQL and Sequelize were employed for back-end data handling. This gym application incorporates authentication to render different UI and UX depending on the type of user authenticated - gym instructors can create classes, and members can book the classes and leave reviews.',
+    summary: 'This gym application incorporates authentication to render different UI and UX depending on the type of user authenticated - gym instructors can create classes, and members can book the classes and leave reviews.',
     link: 'https://github.com/kvlin/gymtrack',
     anchor: 'More info',
+    technologies: 'MySQL, Javascipt Handlebars',
+    last_technology: 'deployed on Heroku'
     
   }
   const travlmate = {
     title: 'Travlmate - Travel information website',
-    summary: 'A one-stop-shop website for travelers to access helpful information that can aid planning for a trip. It saves users time and effort having to search across many sites for a variety of information they might need.',
+    summary: 'A one-stop-shop website for travelers to access helpful information that can aid planning for a trip. It saves users time and effort having to search across many sites for a variety of information they might need. Developed with Javascript (JQuery), Bootstrap, HTML and CSS',
     link: 'https://github.com/kvlin/Travlmate',
     anchor: 'More info'
   }
   const budgetTracker = {
     title: 'Budget Tracker - Progressive Web App',
-    summary: 'The application allows users to log any withdrawal or deposits for budget tracking. Through incorporating Service-worker and Caching, the application works even when the device is offline and it will synchronize the data upon regaining connection. This is particularly useful when for travellers who visit remote places where internet may not be available.',
+    summary: 'The application allows users to log their withdrawals or deposits for budget tracking. It works even when the device is offline and will synchronize the data with the cloud database upon regaining connection. This is particularly useful when for travellers who visit remote places where internet may not be available.',
     link: 'https://github.com/kvlin/Budget-Tracker',
     anchor: 'More info',
+    technologies: "IndexedDB, Service Worker, Cache API",
+    last_technology: 'MongoDB Atlas',
     images:[ 
       {image:budgetTracker1, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
     ],
@@ -45,7 +51,7 @@ export default function Main() {
   }
   const fitnessTracker = {
     title: 'Fitness Tracker - Keeps record of fitness progress',
-    summary: 'The application was deployed on Heroku and fetches data from MongoDB Atlas. This fitness tracker saves the input fitness data (e.g. training time, weight lifted, distance ran) provided by the user and displays them graphically for better visual tracking of their fitness progress.',
+    summary: 'This fitness tracker saves the input fitness data (e.g. training time, weight lifted, distance ran) provided by the user and displays them graphically for better visual tracking of their fitness progress. The application was deployed on Heroku and fetches data from MongoDB Atlas.',
     link: 'https://github.com/kvlin/Fitness-Tracker',
     anchor: 'More info'
   }
