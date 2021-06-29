@@ -2,7 +2,7 @@ import React from 'react';
 import SkillsBrief from '../../components/SkillsBrief'
 import ProjectsBrief from '../../components/ProjectsBrief'
 import {Row, Col, Container} from 'react-bootstrap/'
-import poGenAddProductImg from '../../images/po-generator/Add-product-page-screenshot.PNG'
+import poGenAddProductImg from '../../images/po-generator/All-pages-screenshot.PNG'
 import poGenCalculatorImg from '../../images/po-generator/Calculation-page-screenshot.PNG'
 import poSampleImg from '../../images/po-generator/Sample-PDF-screenshot.PNG'
 import budgetTracker1 from '../../images/budget-tracker/iphone11-screenshot-5.png'
