@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect }from 'react';
 import Card from 'react-bootstrap/card'
 import "keen-slider/keen-slider.min.css"
 import 'react-medium-image-zoom/dist/styles.css'
+import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox.css";
 import "./index.css"
 export default function ProjectsBrief({children}) {
