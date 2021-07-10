@@ -46,7 +46,7 @@ export default function Main() {
     summary: 'This fitness tracker saves the input fitness data (e.g. training time, weight lifted, distance ran) by the user and displays them graphically for better visual tracking of their fitness progresses.',
     link: 'https://github.com/kvlin/Fitness-Tracker',
     anchor: 'More info',
-    technologies: "Node.js, Express, MongoDB, Mongoose, Chart.js",
+    technologies: "Node.js, Express, MongoDB, Mongoose, Javascript, JQuery, HTML, CSS, Bootstrap, Chart.js",
     last_technology: 'deployed on Heroku',
     images:[ 
       {image:budgetTrackerAllImg, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
