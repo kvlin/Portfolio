@@ -11,11 +11,12 @@ export default function SkillsBrief() {
                 </Row>
                 <br/>
                 <Row className="about-text">
-                    <span>I'm a full stack developer living in Sydney. </span>
+                    <div>I'm a full stack developer living in Sydney,</div>
+                    <div> recently qualified as an AWS Certified Cloud Practitioner</div>
                 </Row>
                 <br/>
                 <Row className="skills-text">
-                 MongoDB &#9679; ExpressJS &#9679; ReactJS &#9679; NodeJS &#9679; MySQL &#9679; RESTful API &#9679; Git &#9679; Responsive Design
+                Cloud Computing &#9679; ReactJS &#9679; MongoDB &#9679; ExpressJS &#9679;  NodeJS &#9679; Git &#9679; Responsive Design
                 </Row>
             </Container>
         </div>
