@@ -19,6 +19,18 @@
     display:none
 }
 
+@media only screen and (max-width: 1000px) {
+
+    .github-corner{
+        display:none
+    }
+    .github-centre{
+        left:56%
+
+    }
+
+    
+}
 
 @media only screen and (max-width: 1199px) {
     .wrapper {
@@ -33,11 +45,14 @@
     .skills-text {
         font-size:20px
     }
+    
 
   }
 
 @media only screen and (max-width: 1249px) {
-
+    .octo-banner {
+        display:none
+    }
     .github-corner{
         display:none
     }

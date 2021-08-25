@@ -54,8 +54,7 @@
     background: rgb(79, 147, 250);
   }
   img {
-      height: 50vh;
-      width: 45vh;
+    max-height: 520px;
   }
 
   .zoom-in {
@@ -67,4 +66,11 @@
 
  .is-close {
     display:none
+}
+
+@media only screen and (max-width: 1000px) {
+  img {
+    max-height: 800px;
+  }
+
 }

@@ -12,7 +12,7 @@ export default function ProjectsBrief({children}) {
             {/* Create project summary cards */}
             <Card >
             <a data-caption={children.images[0].caption}  data-fancybox="gallery" href={children.images[0].image} style={children.images[0].style}>
-                <img className="zoom-in" src={children.images[0].image}  alt="Hi"></img>
+                <img className="zoom-in" src={children.images[0].image} ></img>
             </a>
             <Card.Body>
                 <Card.Title>{children.title}</Card.Title>
