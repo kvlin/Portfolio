@@ -20,7 +20,7 @@ export default function ProjectsBrief({children}) {
                 {children.summary} Developed using <strong>{children.technologies}</strong> and <strong>{children.last_technology}</strong>.
                 </Card.Text>
                 <Card.Text>
-                <a href={children.link}>{children.anchor}</a>
+                <a target="_blank" href={children.link}>{children.anchor}</a>
                 </Card.Text>
             </Card.Body>
             </Card>

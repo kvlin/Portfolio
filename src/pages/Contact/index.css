@@ -65,3 +65,16 @@
     
   }
   
+  #contact-submit-btn {
+    float: right;
+  }
+
+  /* using id rather than class(more appropriate), 
+  as using class messes up with the formatting defined from the npm package */
+  #email-sending,
+  #email-success
+  {
+    width: 25rem;
+    text-align: center;
+    margin: 0 auto;
+  }

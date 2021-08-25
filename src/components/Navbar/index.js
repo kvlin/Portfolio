@@ -28,7 +28,7 @@ export default function NavigationBar() {
             <Navbar style={{padding:"0px"}} collapseOnSelect expand="lg" className="colour-nav" bg=""variant="dark">
             <GithubCorner href="https://github.com/kvlin" className="github-corner"  title="View my GitHub profile" bannerColor="white" octoColor="black" size="52" direction="right"/>
                 <Container style={{minWidth:"53%", padding:"0px"}}>
-                <Navbar.Brand href="/"  style={navBrandStyle} >Kevin Lin</Navbar.Brand>
+                <Navbar.Brand href="/"  style={navBrandStyle} >Shouxuan (Kevin) Lin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{border:"none"}}>
                 <Hamburger color="#ffffff"/>
                 </Navbar.Toggle>
