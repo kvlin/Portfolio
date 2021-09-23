@@ -3,6 +3,7 @@ import {Nav, Container, Navbar} from 'react-bootstrap/'
 import './index.css'
 import { Squash as Hamburger } from 'hamburger-react'
 import GithubCorner from 'react-github-corner';
+import resume from '../../assets/Kevin_Lin_Resume.pdf'
 
 export default function NavigationBar() {
     const navBrandStyle = {
@@ -37,7 +38,7 @@ export default function NavigationBar() {
                 <Nav className="ml-auto" style={{marginRight: '0' }} >
                     <Nav.Link href="/"  style={navLinkStyle}>Portfolio</Nav.Link>
                     
-                    <Nav.Link href="/cv"  style={navLinkStyle}>Curriculum Vitae</Nav.Link>
+                    <a href={resume} target="_blank"  style={navLinkStyle}>Resume</a>
                     <Nav.Link href="/contact"  style={navLinkStyle}>Contact</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>

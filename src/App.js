@@ -17,9 +17,6 @@ function App() {
             <SkillsBrief/>
             <Main/>
           </Route>
-          <Route path="/cv">
-            <CV/>
-          </Route>
           <Route path="/contact">
             <Contact/>
           </Route>

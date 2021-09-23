@@ -32,7 +32,7 @@ export default function Contact() {
         <Alert transition="true" id="email-success" variant="success" onClose={() => setshowSuccessAlert(false)} dismissible closeLabel="Close alert">
           Successfully sent - I will reply soon!
         </Alert> : showSendingAlert ? 
-        <Alert transition="true" id="email-sending" variant="info" onClose={() => setshowSuccessAlert(false)} dismissible closeLabel="Close alert">
+        <Alert transition="true" id="email-sending" variant="info" onClose={() => setshowSuccessAlert(false)}>
           Sending Email...
         </Alert> :<></>
         }
