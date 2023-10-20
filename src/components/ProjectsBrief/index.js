@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Card from 'react-bootstrap/card'
+import { Card } from 'react-bootstrap'
 import "keen-slider/keen-slider.min.css"
 import 'react-medium-image-zoom/dist/styles.css'
 import { Fancybox, Carousel, Panzoom } from "@fancyapps/ui";

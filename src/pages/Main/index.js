@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectsBrief from '../../components/ProjectsBrief'
+import SkillsBrief from '../../components/SkillsBrief';
 import { Row, Col, Container } from 'react-bootstrap/'
 import poGenAllImg from '../../images/po-generator/All-pages-screenshot.PNG'
 import budgetTrackerAllImg from '../../images/budget-tracker/desktop-screenshot.png'
@@ -70,6 +71,7 @@ export default function Main() {
 
   return (
     <>
+      <SkillsBrief />
       <Container style={{ minWidth: "53%", padding: "0px 0px" }}>
         <Row xs={1} lg={2}>
           <Col style={{ marginTop: "2em" }}>
