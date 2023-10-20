@@ -1,11 +1,11 @@
 import React from 'react';
 import ProjectsBrief from '../../components/ProjectsBrief'
-import {Row, Col, Container} from 'react-bootstrap/'
+import { Row, Col, Container } from 'react-bootstrap/'
 import poGenAllImg from '../../images/po-generator/All-pages-screenshot.PNG'
 import budgetTrackerAllImg from '../../images/budget-tracker/desktop-screenshot.png'
 import gymtrackAllImg from '../../images/gymtrack/All.PNG'
 import fitrackAllImg from '../../images/fitrack/Home-Stats-pg.PNG'
-
+import dessertAllImg from '../../images/dessert/readme-home.png'
 export default function Main() {
   // Below data objects for every projects to be displayed on the portfolio page
   const poGenerator = {
@@ -15,8 +15,8 @@ export default function Main() {
     anchor: 'More info',
     technologies: "the MERN stack (MongoDB, Express, React, Node.js), Ant Design, jsPDF, Passport.js (authentication)",
     last_technology: 'Bcrypt',
-    images:[ 
-      {image:poGenAllImg, caption: "Purchase Order Generator", style:{ maxWidth:"1660px", width: "auto",height: "auto"}},
+    images: [
+      { image: poGenAllImg, caption: "Purchase Order Generator", style: { maxWidth: "1660px", width: "auto", minHeight: "0.5vh" } },
     ],
 
   }
@@ -27,8 +27,8 @@ export default function Main() {
     anchor: 'More info',
     technologies: 'Node.js, Express, MySQL, JQuery, Handlebars, Passport.js',
     last_technology: 'Bcrypt',
-    images:[{image:gymtrackAllImg, caption: "Gymtrack - An app for Gym classes creation and reservation", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}]
-    
+    images: [{ image: gymtrackAllImg, caption: "Gymtrack - An app for Gym classes creation and reservation", style: { maxWidth: "1660px", width: "auto", height: "auto" } }]
+
   }
   const budgetTracker = {
     title: 'Budget Tracker - Progressive Web App',
@@ -37,8 +37,8 @@ export default function Main() {
     anchor: 'More info',
     technologies: "IndexedDB, Service Worker, Cache API, Bootstrap",
     last_technology: 'MongoDB Atlas',
-    images:[ 
-      {image:budgetTrackerAllImg, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
+    images: [
+      { image: budgetTrackerAllImg, caption: "Budget Tracker", style: { maxWidth: "1660px", width: "auto", height: "auto" } }
     ],
 
   }
@@ -49,32 +49,47 @@ export default function Main() {
     anchor: 'More info',
     technologies: "Node.js, MongoDB, Mongoose, Javascript, JQuery, HTML, CSS, Bootstrap, Chart.js",
     last_technology: 'deployed on Heroku',
-    images:[ 
-      {image:fitrackAllImg, caption: "Budget Tracker", style:{ maxWidth:"1660px", width: "auto",height: "auto"}}
+    images: [
+      { image: fitrackAllImg, caption: "Budget Tracker", style: { maxWidth: "1660px", width: "auto", height: "auto" } }
     ]
   }
 
-  
+  const dessertShop = {
+    title: 'Kv-Dessert-Studio - An e-commerce platform',
+    summary: 'This is an e-commerce application that provides an e-commerce application that providesrestaurant and dessert owners with an online presence and allows visitors to make purchases online.',
+    link: 'https://github.com/kvlin/kv-dessert-site',
+    anchor: 'More info',
+    technologies: "AWS, NGINX, MongoDB, Express, React, Node.js,",
+    last_technology: 'deployed on AWS',
+    images: [
+      { image: dessertAllImg, caption: "Kv-Dessert-Studio", style: { maxWidth: "1660px", width: "auto", height: "auto" } }
+    ]
+  }
+
+
 
   return (
     <>
-      <Container style={{minWidth:"53%", padding:"0px 0px"}}>
-        <Row  xs ={1} lg={2}>
-          <Col style={{marginTop:"2em"}}>
+      <Container style={{ minWidth: "53%", padding: "0px 0px" }}>
+        <Row xs={1} lg={2}>
+          <Col style={{ marginTop: "2em" }}>
+            <ProjectsBrief>{dessertShop}</ProjectsBrief>
+          </Col >
+          <Col style={{ marginTop: "2em" }}>
             <ProjectsBrief>{poGenerator}</ProjectsBrief>
           </Col >
-          <Col style={{marginTop:"2em"}}>
+          <Col style={{ marginTop: "2em" }}>
             <ProjectsBrief>{fitnessTracker}</ProjectsBrief>
           </Col >
-          <Col style={{marginTop:"2em"}}>
-            <ProjectsBrief>{budgetTracker}</ProjectsBrief>
-          </Col >
-          <Col style={{marginTop:"2em"}}>
+          <Col style={{ marginTop: "2em" }}>
             <ProjectsBrief>{gymTrack}</ProjectsBrief>
           </Col >
+          <Col style={{ marginTop: "2em" }}>
+            <ProjectsBrief>{budgetTracker}</ProjectsBrief>
+          </Col >
+
         </Row>
       </Container>
     </>
   );
 }
-  
