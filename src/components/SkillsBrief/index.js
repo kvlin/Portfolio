@@ -14,14 +14,15 @@ export default function SkillsBrief() {
                         </Row>
                         <br />
                         <Row className="about-text">
-                            <div>I'm a developer living in Sydney.</div>
+                            I'm a web developer based in Sydney.
                         </Row>
                         <br />
                         <Row className="skills-text">
-                            Below are some of my personal projects!
+
+                            I use the MERN stack and jQuery for my projects and below are some of them!
                         </Row>
                     </Col>
-                    <Col >
+                    <Col className="awsCert" >
                         <a target="_blank" href="https://www.credly.com/badges/99e9cdda-4c2f-4e58-87d5-f38b5275f257/public_url"><img id="ccp-badge" src={ccpBadge} alt="AWS CCP Certificate" /></a>
                     </Col>
                 </Row>

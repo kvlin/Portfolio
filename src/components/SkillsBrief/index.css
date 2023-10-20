@@ -1,38 +1,45 @@
 .wrapper {
-    padding:50px;
-    min-width:100%;
-    min-height:10em;
-    background-color:rgb(233, 233, 233);
+    padding: 50px;
+    min-width: 100%;
+    min-height: 10em;
+    background-color: rgb(233, 233, 233);
     transition: ease all 0.25s;
 }
+
 .portfolio-text {
-    font-size:60px;
-    font-weight:400
+    font-size: 60px;
+    font-weight: 400
 }
 
 .about-text {
-    font-size:30px;
-    font-weight:300
+    font-size: 30px;
+    font-weight: 300
 }
+
 .skills-text {
-    font-size:25px;
-    font-weight:300
+    font-size: 25px;
+    font-weight: 300
 }
 
 #ccp-badge {
+    text-align: center;
     max-width: 220px;
-    max-height: 220px; 
+    max-height: 220px;
     cursor: pointer;
 }
 
+.awsCert {
+    text-align: center !important;
+    margin-top: 1rem !important;
+}
 
 @media only screen and (max-width: 1249px) {
 
     .wrapper {
-        padding:30px;
-        min-width:100%;
-        min-height:8em;
-        background-color:rgb(233, 233, 233);
+        padding: 30px;
+        min-width: 100%;
+        min-height: 8em;
+        background-color: rgb(233, 233, 233);
         transition: ease all 0.25s;
     }
 
@@ -41,30 +48,35 @@
 
 @media only screen and (max-width: 766px) {
     .wrapper {
-        padding:20px;
-        min-width:100%;
-        min-height:10em;
-        background-color:rgb(233, 233, 233);
+        padding: 20px;
+        min-width: 100%;
+        min-height: 10em;
+        background-color: rgb(233, 233, 233);
         transition: ease all 0.25s;
     }
+
     .portfolio-text {
-        font-size:60px;
-        font-weight:400
+        font-size: 60px;
+        font-weight: 400
     }
-    
+
     .about-text {
-        font-size:30px;
-        font-weight:300
+        font-size: 30px;
+        font-weight: 300
     }
+
     .skills-text {
-        font-size:25px;
-        font-weight:300
+        font-size: 25px;
+        font-weight: 300
     }
 
     #ccp-badge {
         max-width: 150px;
         max-height: 150px;
         cursor: pointer;
+        margin: 0 auto;
     }
 
-  }
+
+
+}
