@@ -2,9 +2,9 @@ import React from 'react';
 import ProjectsBrief from '../../components/ProjectsBrief'
 import SkillsBrief from '../../components/SkillsBrief';
 import { Row, Col, Container } from 'react-bootstrap/'
-import poGenAllImg from '../../images/po-generator/All-pages-screenshot.PNG'
+import poGenAllImg from '../../images/po-generator/Calculation-page-screenshot.PNG'
 import budgetTrackerAllImg from '../../images/budget-tracker/desktop-screenshot.png'
-import gymtrackAllImg from '../../images/gymtrack/All.PNG'
+import gymtrackAllImg from '../../images/gymtrack/classes.png'
 import fitrackAllImg from '../../images/fitrack/Home-Stats-pg.PNG'
 import dessertAllImg from '../../images/dessert/readme-home.png'
 export default function Main() {
@@ -14,7 +14,7 @@ export default function Main() {
     summary: "A SaaS built to automate part of my employment routine task. Upon providing the product and it's quantity, purchase order PDF's can be obtained for all raw materials within matters of seconds, significantly reducing the need for manual data entries.",
     link: 'https://github.com/kvlin/PurchaseOrder-Generator',
     anchor: 'More info',
-    technologies: "the MERN stack (MongoDB, Express, React, Node.js), Ant Design, jsPDF, Passport.js (authentication)",
+    technologies: "the MERN stack, Passport.js",
     last_technology: 'Bcrypt',
     images: [
       { image: poGenAllImg, caption: "Purchase Order Generator", style: { maxWidth: "1660px", width: "auto", minHeight: "0.5vh" } },
@@ -60,7 +60,7 @@ export default function Main() {
     summary: 'This is an e-commerce application that provides an e-commerce application that providesrestaurant and dessert owners with an online presence and allows visitors to make purchases online.',
     link: 'https://github.com/kvlin/kv-dessert-site',
     anchor: 'More info',
-    technologies: "AWS, NGINX, MongoDB, Express, React, Node.js,",
+    technologies: "AWS, NGINX, MERN stack, Passport.js(authentication)",
     last_technology: 'deployed on AWS',
     images: [
       { image: dessertAllImg, caption: "Kv-Dessert-Studio", style: { maxWidth: "1660px", width: "auto", height: "auto" } }
