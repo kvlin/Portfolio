@@ -2,10 +2,10 @@
   "name": "client",
   "version": "0.1.0",
   "engines": {
-    "node": "14.15.5",
+    "node": "v18.17.1",
     "npm": "7.13.0"
   },
-  "homepage": "http://kvlin.github.io/Portfolio",
+  "homepage": "http://kvlin.github.io/",
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^5.0.24",
@@ -36,7 +36,7 @@
     "web-vitals": "^3.5.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
